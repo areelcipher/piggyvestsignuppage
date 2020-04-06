@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+h1, p {
+    margin: 0;
+}
+#container {
+    background-image: url(img/circle.svg), url(img/piggyvest1.svg), url(img/piggyvest3.svg), url(img/piggyvest2.svg);
+    background-size: 15%, 15%, 15%, 15%;
+    background-position: left 0% top -15%, right -8.5% top -1%, left -6% bottom -12%, right -8% bottom -6%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 200px;
+    margin: 0;
+    padding: 0;
+    font-family: U8,sans-serif;
+    background-color: #062863;
+    overflow: auto;
+    height: 100vh;
+    width: 100%;
+}
+#main-body {
+    max-width: 28rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+#logo {
+    text-align: center;
+    margin-bottom: 3rem
+}
+#signup__form-header {
+    margin-bottom: 24px;
+    text-align: center;
+}
+#signup__form-header__h1 {
+    color: #083e9e;
+    font-family: sans-serif;
+}
+#signup-form {
+    overflow: auto;
+}
+#signup__form-header__p {
+    font-size: .875rem;
+    color: #4a5568;
+    line-height: 2;
+}
+#signup__form-body {
+    background-color: #fff;
+    border-radius: 1.25rem 1.25rem 1.25rem 0;
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+}
+.form__control {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.form__control label {
+    font-size: .75rem;
+    color: #4a5568;
+    font-weight: bold;
+    margin-bottom: .25rem;
+    line-height: 2;
+}
+.form__control input {
+    padding: 1.3rem;
+    background-color: #edf2f7;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+}
+::placeholder {
+    font-size: .9rem;
+    color: #a3a3a3;
+}
+#select {
+    padding: 1.3rem;
+    background-color: #edf2f7;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+}
+#btn {
+    width: 100%;
+    padding: 1.25rem;
+    background-color: #083e9e;
+    box-sizing: border-box;
+    border-radius: .75rem .75rem .75rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn:hover {
+    background-color: #072b69;
+}
+#btn button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+#switch__page {
+    font-size: .82rem;
+    color: #fff;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
